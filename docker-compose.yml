@@ -1,0 +1,13 @@
+version: "2"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    ports:
+        - "3000:3000"
+        - "9005:9005"
+    tty: true
