@@ -1,11 +1,11 @@
-# next_firebase
+# nuxt_firebase
 
 ## 開発環境
 ### 初回立ち上げ
 ``` bash
 # OSXにて
-$ git clone git@github.com:prgyukke/next_firebase.git
-$ cd next_firebase/
+$ git clone git@github.com:prgyukke/nuxt_firebase.git
+$ cd nuxt_firebase/
 $ docker-compose up -d --build
 
 # appコンテナに入る
