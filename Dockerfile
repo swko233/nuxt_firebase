@@ -4,7 +4,8 @@ ENV NODE_ENV=development
 
 RUN apt-get update \
  && apt-get -y install vim \
- && npm install -g firebase-tools jest\
+ && npm install -g npm \
+ && npm install -g firebase-tools jest \
  && npm install
 
 WORKDIR /app
