@@ -1,6 +1,6 @@
-import firebase from 'firebase'
+import firebase from 'firebase/app'
+import 'firebase/database'
 
-console.log(firebase.apps)
 if (!firebase.apps.length) {
   firebase.initializeApp({
     apiKey: process.env.FIREBASE_API_KEY,
@@ -12,4 +12,6 @@ if (!firebase.apps.length) {
   })
 }
 
-export default firebase
+const database = firebase.database()
+
+export { database }
