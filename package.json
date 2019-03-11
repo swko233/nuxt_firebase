@@ -12,19 +12,21 @@
     "test": "jest"
   },
   "dependencies": {
+    "@nuxtjs/dotenv": "^1.3.0",
     "cross-env": "^5.2.0",
+    "firebase": "^5.8.6",
     "nuxt": "^2.4.0",
     "vuetify": "^1.5.0",
     "vuetify-loader": "^1.2.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2",
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
     "jest": "^23.6.0",
+    "nodemon": "^1.18.9",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "vue-jest": "^3.0.2"
   }
 }

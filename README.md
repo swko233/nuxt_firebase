@@ -43,3 +43,12 @@ $ docker-compose exec app /bin/bash
 # appコンテナ上にて
 # exit
 ```
+
+### Firebase にホスティング
+``` bash
+$ npm run build
+$ npm install -g firebase-tools
+$ firebase login
+# ブラウザにてログイン
+$ firebase deploy
+```
